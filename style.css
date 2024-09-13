@@ -1,55 +1,60 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f3f3f3;
+    color: #333;
     text-align: center;
     padding: 50px;
 }
 
-.container {
-    background-color: #fff;
+/* Header styling */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Song container styling */
+#kanye-song {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-#song-details {
-    margin-top: 20px;
+/* Song title styling */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000;
 }
 
-#album-cover {
+/* Image styling */
+img {
     width: 300px;
-    height: 300px;
+    height: auto;
     border-radius: 10px;
-    object-fit: cover;
-}
-
-#song-title {
     margin: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#stream-link {
-    display: inline-block;
-    background-color: #1db954;
-    color: #fff;
-    padding: 10px 20px;
+/* Link styling */
+a {
+    color: #1DB954;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
-#generate-button {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-#generate-button:hover {
-    background-color: #333;
+a:hover {
+    text-decoration: underline;
 }
